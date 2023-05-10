@@ -4,6 +4,8 @@ import './Playlist.module.css';
 
 import Tracklist from '../Tracklist/Tracklist'
 
+const saveToSpotify = <button>Save to Spotfiy</button>;
+const playlistField = <input type='form'></input>;
 
 function Playlist(){
 
@@ -11,6 +13,8 @@ function Playlist(){
     return (
         <div id="playlist">
             <h2>Playlist</h2>
+            {playlistField}
+            {saveToSpotify}
             <Tracklist />
         </div>
     )

@@ -3,16 +3,15 @@ import React from 'react';
 import './App.css';
 
 import Playlist from './components/Playlist/Playlist';
-import SearchResults from './components/SearchResults/SearchResults';
+import SearchArea from './components/SearchArea/SearchArea';
 
 function App(){
 
     return (
         <div id="outer">
             <div id="app">
-                <h1>The App</h1>
-                <SearchResults />
                 <Playlist />
+                <SearchArea />
             </div>
         </div>
     )

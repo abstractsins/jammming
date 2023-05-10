@@ -1,14 +1,14 @@
 import React from 'react';
 
-const saveToSpotify = <button></button>;
-const search = <button></button>;
+const search = <button>Search</button>;
+const searchField = <input type='form'></input>
 
 function SearchBar(){
 
     return (
-        <div>
+        <div id="search-bar">
+            {searchField}
             {search}
-            {saveToSpotify}
         </div>
     )
 

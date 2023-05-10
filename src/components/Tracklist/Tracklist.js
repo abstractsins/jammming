@@ -10,6 +10,7 @@ function Tracklist(props){
     
     let trackListing = Object.entries(tracks).map(track=>
         <Track 
+            key={track[1].key}
             title={track[1].name} 
             artist={track[1].artist} 
             album={track[1].album}
