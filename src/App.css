@@ -37,9 +37,6 @@
   }
 }
 
-
-
-
 * {
   /* border: 1px solid red; */
 }
@@ -146,4 +143,8 @@ button {
   border-radius: 10px;
   width: 160px;
   margin: 10px 0;
+}
+
+button:hover {
+  cursor: pointer;
 }

@@ -7,7 +7,6 @@ import tracks from '../../tracks';
 
 function Tracklist(props){
 
-    
     let trackListing = Object.entries(tracks).map(track=>
         <Track 
             key={track[1].key}
